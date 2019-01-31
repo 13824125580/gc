@@ -11,7 +11,7 @@
 #
 
 #CC= cl /W3 /o 
-CC= gcc -Wall -o
+CC= gcc -g -O0 -Wall -o
 
 RM= rm
 #RM= del

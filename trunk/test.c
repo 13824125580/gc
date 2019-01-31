@@ -98,6 +98,7 @@ main()
 	weak=gc_weak_table(0);
 	p=test(weak);
 
+#if 0
 	gc_enter();
 
 	printf("%p is in weak table\n",gc_weak_next(weak,0));
@@ -109,8 +110,8 @@ main()
 	iterate_weak_table(weak);
 
 	gc_dryrun();
-
-	gc_exit();
+#endif
+	/*gc_exit();*/
 	return 0;
 }
 

@@ -1,0 +1,108 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CACHE_BITS	gc.c	35;"	d	file:
+CACHE_CHILD_BITS	gc.c	122;"	d	file:
+CACHE_CHILD_MASK	gc.c	124;"	d	file:
+CACHE_PARENT_BITS	gc.c	121;"	d	file:
+CACHE_PARENT_MASK	gc.c	123;"	d	file:
+CACHE_SIZE	gc.c	101;"	d	file:
+CC	Makefile	/^CC= gcc -Wall -o$/;"	m
+E	gc.c	/^} E;$/;"	v	typeref:struct:__anon4	file:
+FREED_POINTER	gc.c	120;"	d	file:
+MANUAL_GARBAGE_COLLECTOR_H	gc.h	12;"	d
+RM	Makefile	/^RM= rm$/;"	m
+UNSET_MASK	gc.c	125;"	d	file:
+UNSET_MASK_BIT	gc.c	126;"	d	file:
+WEAK_CONTAINER	gc.c	119;"	d	file:
+bool	gc.c	19;"	d	file:
+bottom	gc.c	/^	int bottom;$/;"	m	struct:stack	file:
+c	gc.c	/^		} c;$/;"	m	union:node::__anon1	typeref:struct:node::__anon1::__anon3	file:
+cache	gc.c	/^	struct cache_node cache[CACHE_SIZE];$/;"	m	struct:__anon4	typeref:struct:__anon4::cache_node	file:
+cache_dirty	gc.c	/^	bool cache_dirty;$/;"	m	struct:__anon4	file:
+cache_flush	gc.c	/^cache_flush()$/;"	f	file:
+cache_insert	gc.c	/^cache_insert(int parent,int child)$/;"	f	file:
+cache_node	gc.c	/^struct cache_node {$/;"	s	file:
+cache_node_cmp	gc.c	/^cache_node_cmp(const void *a,const void *b)$/;"	f	file:
+child	gc.c	/^	int child;$/;"	m	struct:cache_node	file:
+children	gc.c	/^			struct link *children;$/;"	m	struct:node::__anon1::__anon2	typeref:struct:node::__anon1::__anon2::link	file:
+children	gc.c	/^			struct link *children;$/;"	m	struct:node::__anon1::__anon3	typeref:struct:node::__anon1::__anon3::link	file:
+children	gc.c	/^	int children[1];$/;"	m	struct:link	file:
+current	gc.c	/^	int current;$/;"	m	struct:stack	file:
+data	gc.c	/^	union stack_node *data;$/;"	m	struct:stack	typeref:union:stack::stack_node	file:
+false	gc.c	21;"	d	file:
+finalizer	gc.c	/^			void (*finalizer)(void *);$/;"	m	struct:node::__anon1::__anon2	file:
+free	gc.c	/^		int free;$/;"	m	union:node::__anon1	file:
+free	gc.c	/^	int free;$/;"	m	struct:__anon4	file:
+free	gc.c	/^	struct hash_node *free;$/;"	m	struct:hash_map	typeref:struct:hash_map::hash_node	file:
+gc_clone	gc.c	/^gc_clone(void *from,size_t sz)$/;"	f
+gc_collect	gc.c	/^gc_collect()$/;"	f
+gc_dryrun	gc.c	/^gc_dryrun()$/;"	f
+gc_enter	gc.c	/^gc_enter()$/;"	f
+gc_exit	gc.c	/^gc_exit()$/;"	f
+gc_init	gc.c	/^gc_init()$/;"	f
+gc_leave	gc.c	/^gc_leave(void *p,...)$/;"	f
+gc_link	gc.c	/^gc_link(void *parent,void *prev,void *now)$/;"	f
+gc_malloc	gc.c	/^gc_malloc(size_t sz,void *parent,void (*finalizer)(void *))$/;"	f
+gc_mark	gc.c	/^gc_mark(int root)$/;"	f	file:
+gc_mark_weak	gc.c	/^gc_mark_weak(int weak)$/;"	f	file:
+gc_realloc	gc.c	/^gc_realloc(void *p,size_t sz,void *parent)$/;"	f
+gc_weak_next	gc.c	/^gc_weak_next(struct gc_weak_table *cont,int *iter)$/;"	f
+gc_weak_table	gc.c	/^gc_weak_table(void *parent)$/;"	f
+gc_weak_table	gc.c	/^struct gc_weak_table {$/;"	s	file:
+handle	gc.c	/^	int handle;$/;"	m	union:stack_node	file:
+hash	gc.c	/^hash(void *p)$/;"	f	file:
+hash_map	gc.c	/^struct hash_map	{$/;"	s	file:
+hash_node	gc.c	/^struct hash_node {$/;"	s	file:
+id	gc.c	/^	int id;$/;"	m	struct:hash_node	file:
+intptr_t	gc.c	/^typedef int intptr_t;$/;"	t	file:
+iterate_weak_table	test.c	/^iterate_weak_table(struct gc_weak_table *weak)$/;"	f	file:
+link	gc.c	/^struct link {$/;"	s	file:
+link_expand	gc.c	/^link_expand(struct link *old,int sz)$/;"	f	file:
+log_ptr	test.c	/^log_ptr(void *p)$/;"	f	file:
+main	test.c	/^main()$/;"	f
+map	gc.c	/^	struct hash_map map;$/;"	m	struct:__anon4	typeref:struct:__anon4::hash_map	file:
+map_erase	gc.c	/^map_erase(int id)$/;"	f	file:
+map_expand	gc.c	/^map_expand()$/;"	f	file:
+map_id	gc.c	/^map_id(void *p)$/;"	f	file:
+mark	gc.c	/^	int mark;$/;"	m	struct:__anon4	file:
+mark	gc.c	/^	int mark;$/;"	m	struct:node	file:
+mem	gc.c	/^			intptr_t mem;$/;"	m	struct:node::__anon1::__anon3	file:
+mem	gc.c	/^			void * mem;$/;"	m	struct:node::__anon1::__anon2	file:
+my_free	gc.c	32;"	d	file:
+my_malloc	gc.c	31;"	d	file:
+my_realloc	gc.c	33;"	d	file:
+n	gc.c	/^		} n;$/;"	m	union:node::__anon1	typeref:struct:node::__anon1::__anon2	file:
+new_test	test.c	/^new_test(struct test *parent)$/;"	f	file:
+next	gc.c	/^	struct hash_node *next;$/;"	m	struct:hash_node	typeref:struct:hash_node::hash_node	file:
+next	test.c	/^	struct test *next;$/;"	m	struct:test	typeref:struct:test::test	file:
+node	gc.c	/^struct node {$/;"	s	file:
+node_add	gc.c	/^node_add(int parent,int child)$/;"	f	file:
+node_alloc	gc.c	/^node_alloc(void *p)$/;"	f	file:
+node_free	gc.c	/^node_free(int id)$/;"	f	file:
+node_id	gc.c	/^	int node_id;$/;"	m	struct:gc_weak_table	file:
+number	gc.c	/^	int number;$/;"	m	struct:hash_map	file:
+number	gc.c	/^	int number;$/;"	m	struct:link	file:
+number	gc.c	/^	int number;$/;"	m	union:stack_node	file:
+parent	gc.c	/^	int parent;$/;"	m	struct:cache_node	file:
+pool	gc.c	/^	struct node *pool;$/;"	m	struct:__anon4	typeref:struct:__anon4::node	file:
+size	gc.c	/^	int size;$/;"	m	struct:__anon4	file:
+size	gc.c	/^	int size;$/;"	m	struct:hash_map	file:
+stack	gc.c	/^	int stack;$/;"	m	union:stack_node	file:
+stack	gc.c	/^	struct stack stack;$/;"	m	struct:__anon4	typeref:struct:__anon4::stack	file:
+stack	gc.c	/^struct stack {$/;"	s	file:
+stack_expand	gc.c	/^stack_expand()$/;"	f	file:
+stack_node	gc.c	/^union stack_node {$/;"	u	file:
+stack_pack	gc.c	/^stack_pack()$/;"	f	file:
+stack_pack_internal	gc.c	/^stack_pack_internal(int from,int to,int top)$/;"	f	file:
+stack_push	gc.c	/^stack_push(int handle)$/;"	f	file:
+table	gc.c	/^	struct hash_node **table;$/;"	m	struct:hash_map	typeref:struct:hash_map::hash_node	file:
+test	test.c	/^struct test {$/;"	s	file:
+test	test.c	/^test(struct gc_weak_table *weak)$/;"	f	file:
+top	gc.c	/^	int top;$/;"	m	struct:stack	file:
+true	gc.c	20;"	d	file:
+u	gc.c	/^	} u;$/;"	m	struct:node	typeref:union:node::__anon1	file:
+weak	gc.c	/^			intptr_t weak;$/;"	m	struct:node::__anon1::__anon3	file:
