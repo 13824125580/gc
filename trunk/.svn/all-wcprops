@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 22
+/svn/!svn/ver/23/trunk
+END
+gc.c
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/23/trunk/gc.c
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/16/trunk/README
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/6/trunk/Makefile
+END
+gc.h
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/13/trunk/gc.h
+END
+test.c
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/14/trunk/test.c
+END
