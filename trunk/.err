@@ -1,5 +1,5 @@
 test.c: In function ‘int main()’:
-test.c:99:8: error: invalid conversion from ‘void*’ to ‘test*’ [-fpermissive]
+test.c:100:8: error: invalid conversion from ‘void*’ to ‘test*’ [-fpermissive]
   p=test(weak);
     ~~~~^~~~~~
 cc1plus: fatal error: ./: No such file or directory
