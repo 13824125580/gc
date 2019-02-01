@@ -52,7 +52,7 @@ test(struct gc_weak_table *weak)
 		}
 
 	/* after gc_leave , only last p leave in the stack */
-	gc_leave(NULL,0);
+	/*gc_leave(NULL,0);*/
 
 	/* p will not be collected */
 	gc_collect();

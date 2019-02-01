@@ -10,7 +10,7 @@ CACHE_CHILD_MASK	gc.c	124;"	d	file:
 CACHE_PARENT_BITS	gc.c	121;"	d	file:
 CACHE_PARENT_MASK	gc.c	123;"	d	file:
 CACHE_SIZE	gc.c	101;"	d	file:
-CC	Makefile	/^CC= gcc -Wall -o$/;"	m
+CC	Makefile	/^CC= gcc -g -O0 -Wall -o$/;"	m
 E	gc.c	/^} E;$/;"	v	typeref:struct:__anon4	file:
 FREED_POINTER	gc.c	120;"	d	file:
 MANUAL_GARBAGE_COLLECTOR_H	gc.h	12;"	d
