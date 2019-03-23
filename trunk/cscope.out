@@ -1,5 +1,5 @@
-cscope 15 $HOME/WorkSpace/gc/manualgc/trunk -q 0000000140 0000019151
-	@/home/czl/WorkSpace/gc/manualgc/trunk/gc.c
+cscope 15 $HOME/Workspace/gc/trunk -q 0000000139 0000019090
+	@/home/czl/Workspace/gc/trunk/gc.c
 
 11 
 	~"gc.h
@@ -3472,7 +3472,7 @@ m¬k
 }
 
 791 
-gc_m®loc
+	$gc_m®loc
 (
 size_t
  
@@ -4111,7 +4111,7 @@ FREED_POINTER
 	}
 }
 
-	@/home/czl/WorkSpace/gc/manualgc/trunk/gc.h
+	@/home/czl/Workspace/gc/trunk/gc.h
 
 11 #iâdeà
 MANUAL_GARBAGE_COLLECTOR_H
@@ -4219,7 +4219,7 @@ cÚt
 ™”
 );
 
-	@/home/czl/WorkSpace/gc/manualgc/trunk/test.c
+	@/home/czl/Workspace/gc/trunk/test.c
 
 11 
 	~"gc.h
@@ -4366,12 +4366,6 @@ w—k
 ,0,
 p
 );
-
-55 
-	`gc_Ëave
-(
-NULL
-,0);
 
 58 
 	`gc_cÞËù
@@ -4666,8 +4660,8 @@ cÚt
 .
 0
 4
-136
-/home/czl/WorkSpace/gc/manualgc/trunk/gc.c
-/home/czl/WorkSpace/gc/manualgc/trunk/gc.h
-/home/czl/WorkSpace/gc/manualgc/trunk/test.c
+109
+/home/czl/Workspace/gc/trunk/gc.c
+/home/czl/Workspace/gc/trunk/gc.h
+/home/czl/Workspace/gc/trunk/test.c
 gc.h

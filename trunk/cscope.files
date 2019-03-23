@@ -1,4 +1,14 @@
+<<<<<<< HEAD
+/home/czl/Workspace/gc/trunk/gc.c
+/home/czl/Workspace/gc/trunk/test.c
+/home/czl/Workspace/gc/trunk/gc.h
+testfortestgit
+=======
 /home/czl/WorkSpace/gc/manualgc/trunk/test.c
 /home/czl/WorkSpace/gc/manualgc/trunk/gc.h
 /home/czl/WorkSpace/gc/manualgc/trunk/gc.c
 test for qgit
+<<<<<<< HEAD
+=======
+>>>>>>> test for qgit
+>>>>>>> 68b49b6b4ca503f79593629103161babff1cb797
